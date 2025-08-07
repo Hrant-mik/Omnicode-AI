@@ -25,9 +25,6 @@ Tokenize it by matching subwords from the vocabulary using a greedy, longest-mat
 If no subword matches at a given position, treat the current character as a separate token.
 
 🧩 Functions to Implement
-python
-Копировать
-Редактировать
 def build_subword_vocab(text: str, min_freq: int) -> set:
     """
     Build a vocabulary of subwords based on the training text.
@@ -35,9 +32,6 @@ def build_subword_vocab(text: str, min_freq: int) -> set:
     Only include subwords that appear at least `min_freq` times.
     """
     pass
-python
-Копировать
-Редактировать
 def tokenize_with_vocab(text: str, vocab: set) -> list:
     """
     Tokenize the input text using the provided subword vocabulary.
@@ -46,9 +40,6 @@ def tokenize_with_vocab(text: str, vocab: set) -> list:
     """
     pass
 ✅ Example
-python
-Копировать
-Редактировать
 training_text = "International, interaction! Interstellar: Internal? Intentional."
 min_freq = 2
 vocab = build_subword_vocab(training_text, min_freq)
