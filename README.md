@@ -1,10 +1,4 @@
 
-# 🔤 Subword Vocabulary Tokenizer
-
-A simple subword-based tokenizer that builds a vocabulary from training text and tokenizes new input using **greedy longest-match-first** matching.
-
----
-
 ## 📋 Task Overview
 
 You are given a large natural language text (e.g., a product description or news article). Your goal is to:
