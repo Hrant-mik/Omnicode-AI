@@ -39,6 +39,13 @@ def tokenize_with_vocab(text: str, vocab: set) -> list:
     If no subword matches at a position, treat the current character as a token.
     """
     pass
+Example: (min_freq=2)
+Given training text:
+"International, interaction! Interstellar: Internal? Intentional."
+Input sentence:
+"Intentional"
+Expected output:
+['inte', 'nt', 'ional']
 ✅ Example
 training_text = "International, interaction! Interstellar: Internal? Intentional."
 min_freq = 2
